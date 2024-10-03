@@ -1,7 +1,13 @@
-# ARK-SA-Custom-Cosmetics-Whitelist-Generator
-Erstellt eine "leichter" zu pflegende Whitelist für ARK:SA Custom-Cosmetics
+# Custom-Cosmetics-Whitelist-Generator for ARK: Survivial Ascendend
 
-Creates a whitelist for ARK:SA custom cosmetics that is "easier" to maintain
+Erstellt auf einfache weise eine Whitelist für Custom Cosmetics. Die Whitelist kopiert man auf dem Server in einer Datei oder legt sie auf einem Webserver ab. 
 
-Derzeit noch kein Quellcode! Nur als Web-Interface: https://ark.gamepedia.eu/wl_generator.php
+Un der GameUserSettings.ini unter [ServerSettings] trägt man dann folgendes ein:
+CosmeticWhitelistOverride="https://webserver.tld/name_der_datei.txt" (eigener Webserver, Github [RAW!] etc.)
+alternativ: 
+CosmeticWhitelistOverride="c:\server\whitelist.txt"
+
+Derzeit noch kein Quellcode! Nur als Web-Interface: 
+No source code yet! Only as a web interface:
+https://ark.gamepedia.eu/wl_generator.php
 
