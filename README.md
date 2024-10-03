@@ -2,7 +2,7 @@
 
 Erstellt auf einfache weise eine Whitelist für Custom Cosmetics. Die Whitelist kopiert man auf dem Server in einer Datei oder legt sie auf einem Webserver ab. 
 
-Un der GameUserSettings.ini unter [ServerSettings] trägt man dann folgendes ein:
+Un der GameUserSettings.ini unter [ServerSettings] trägt man dann folgendes ein:<br>
 CosmeticWhitelistOverride="https://webserver.tld/name_der_datei.txt" (eigener Webserver, Github [RAW!] etc.)
 alternativ: 
 CosmeticWhitelistOverride="c:\server\whitelist.txt"
